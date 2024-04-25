@@ -13,15 +13,20 @@ public class Lab044 {
         int a = 10;
         // ++a -> a = a+1 (value increase first -> assign the value)
 
-        int b = ++a; //  a  = a+1
+   //     int b = ++a; //  a  = a+1
 
         // b = 11
         // a = 11
 
-        System.out.println(b);
+//        System.out.println(b);
+//        System.out.println(a);
+
+       System.out.println(a++ + ++a + ++a + a++); // 11+
         System.out.println(a);
 
-
+//        System.out.println(++a + ++a + ++a);
+//
+//        System.out.println(a);
 
 
 

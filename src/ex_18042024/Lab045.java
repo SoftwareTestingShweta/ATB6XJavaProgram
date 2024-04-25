@@ -7,10 +7,12 @@ public class Lab045 {
 
         int a = 10;
 
-        int b = a++; //  a, b
+  //      int b = a++; //  a, b
         // b -> 10
         // a -> 11
-        System.out.println(b);
+   //     System.out.println(b);
+
+        System.out.println(a++ + ++a + ++a + a++);
         System.out.println(a);
 
 
