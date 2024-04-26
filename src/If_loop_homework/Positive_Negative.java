@@ -6,6 +6,8 @@ public class Positive_Negative {
 
     public static void main(String[] args) {
 
+       // Program to Check if a Number is Positive, Negative, or Zero.
+
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the number --> ");
