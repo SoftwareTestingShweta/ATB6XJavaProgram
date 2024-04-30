@@ -2,7 +2,7 @@ package If_loop_homework;
 
 import java.util.Scanner;
 
-public class Vowel_Consonant {
+public class VowelConso {
 
     public static void main(String[] args) {
 
@@ -29,11 +29,8 @@ public class Vowel_Consonant {
         if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
             System.out.println("It is vowel " + ch);
         } else {
-          System.out.println("Given character is a consonant");
+            System.out.println("Given character is a consonant");
         }
-
-        }
-
 
     }
-
+}
